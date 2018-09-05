@@ -73,7 +73,7 @@ function callSendAPI(sender_psid, response) {
 
 app.get('/', function (req, res) {
     res.send('Hello world, I am a chat bot')
-})
+});
 // Accepts POST requests at /webhook endpoint
 app.post('/webhook', (req, res) => {
 
